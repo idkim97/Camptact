@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <RelativeLayout android:background="@color/bg_screen3" android:layout_height="match_parent" android:layout_width="match_parent" xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <LinearLayout android:layout_height="wrap_content" android:layout_width="wrap_content" android:orientation="vertical" android:gravity="center_horizontal" android:layout_centerInParent="true">
+
+    <ImageView android:layout_height="170dp" android:layout_width="170dp" android:src="@drawable/pictures" android:padding="20dp"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:textStyle="bold" android:textSize="@dimen/slide_title" android:textColor="@android:color/white" android:text="사진과 비디오 전송기능"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:textSize="@dimen/slide_desc" android:textColor="@android:color/white" android:text="여러분의 매력을 더 뿜어낼 수 있게 도와줄 수 있는 사진과 비디오 전송기능! 여러분의 애완동물 자랑부터 가천대의 모습까지 마음껏 보여주십시오" android:textAlignment="center" android:paddingRight="@dimen/desc_padding" android:paddingLeft="@dimen/desc_padding" android:layout_marginTop="20dp"/>
+
+</LinearLayout>
+
+</RelativeLayout>

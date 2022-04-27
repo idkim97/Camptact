@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <RelativeLayout android:background="@color/bg_screen4" android:layout_height="match_parent" android:layout_width="match_parent" xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <LinearLayout android:layout_height="wrap_content" android:layout_width="wrap_content" android:orientation="vertical" android:gravity="center_horizontal" android:layout_centerInParent="true">
+
+    <ImageView android:layout_height="170dp" android:layout_width="170dp" android:src="@drawable/profile" android:padding="20dp"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:textStyle="bold" android:textSize="@dimen/slide_title" android:textColor="@android:color/white" android:text="자신만의 프로필 생성"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:textSize="@dimen/slide_desc" android:textColor="@android:color/white" android:text="캠택트는 익명성을 보장하고있지만, 여러분의 특성을 나타내 줄 수 있는 프로필 기능을 만들었습니다. 자유롭게 이용해주십시오" android:textAlignment="center" android:paddingRight="@dimen/desc_padding" android:paddingLeft="@dimen/desc_padding" android:layout_marginTop="20dp"/>
+
+</LinearLayout>
+
+</RelativeLayout>

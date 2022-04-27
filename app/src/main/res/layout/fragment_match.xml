@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.fragment.MatchFragment">
+
+    <TextView
+        android:id="@+id/notice_text2"
+        android:layout_above="@+id/progressbar_circle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_centerHorizontal="true"
+        android:text="상대방에 대한 폭언/욕설은 이용제한 대상입니다. 올바른 언어 사용!"/>
+
+    <ProgressBar
+        android:id="@+id/progressbar_circle"
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        android:layout_centerInParent="true"
+        style="?android:attr/progressBarStyleLargeInverse"
+        android:indeterminate="true"
+        />
+
+    <TextView
+        android:id="@+id/searching_text"
+        android:layout_below="@+id/progressbar_circle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorAccent"
+        android:layout_centerHorizontal="true"
+        android:textSize="16sp"
+        android:text="상대를 찾는 중..."/>
+
+    <TextView
+        android:id="@+id/notice_text"
+        android:layout_above="@+id/progressbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="서비스 이용자가 없는 경우 매칭되는데 오래 걸립니다."/>
+
+    <ProgressBar
+        android:id="@+id/progressbar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:layout_above="@+id/random_match_btn"
+        android:indeterminate="true" />
+
+    <ToggleButton
+        android:id="@+id/random_match_btn"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/adView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/background_button"
+        android:padding="10dp"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textOff="랜덤 채팅 시작하기"
+        android:textOn="매칭 중단하기"
+        android:textSize="18sp" />
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="/6499/example/banner">
+    </com.google.android.gms.ads.AdView>
+
+</RelativeLayout>

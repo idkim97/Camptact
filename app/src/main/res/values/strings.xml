@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Camtact</string>
+    <string name="title_match">Match</string>
+    <string name="title_chat">Chatting</string>
+    <string name="title_brd">Board</string>
+    <string name="title_set">Setting</string>
+
+    <string name="missing_content">error</string>
+    <string name="start">Got IT</string>
+    <string name="next">Next</string>
+    <string name="Seen">Seen</string>
+    <string name="Delivered">Delivered</string>
+    <string name="your_string_here"><u>내 개인 정보가 노출되지는 않나요?</u></string>
+    <string name="please_grant_permission">권한을 허용해 주세요.</string>
+
+    <string name="skip">SKIP</string>
+    <string name="slide_1_title">가천대생을 잇다, Camtact</string>
+    <string name="slide_1_desc">가천대 메일로만 접속할 수 있는 어플로, 동기, 선배, 후배를 자유롭게 만날 수 있습니다!</string>
+    <string name="slide_2_title">랜덤 채팅</string>
+    <string name="slide_2_desc">랜덤 채팅으로 우리학교 친구와 대화해봐요!</string>
+    <string name="slide_3_title">게시판</string>
+    <string name="slide_3_desc">게시판을 통해 같이 편하게 술한잔 할 친구 찾기!</string>
+    <string name="slide_4_title">주의 사항</string>
+    <string name="slide_4_desc"> 건전한 어플 사용을 위해 에티켓은 꼭 지켜주세요!</string>
+    <string name="play_again_desc">To see the welcome slider again, goto Settings -> apps -> welcome slider -> clear data</string>
+    <string name="play_again">Play Again</string>
+</resources>
