@@ -85,10 +85,10 @@
 ## 설치 방법
 **개발환경**
 
-> Android Studio
-> JAVA 버전 : JDK 1.8.0_332
-> Server & DB : Firebase Realtime Database
-> 테스트 환경 : Samsung GalaxyS10
+> Android Studio  
+> JAVA 버전 : JDK 1.8.0_332  
+> Server & DB : Firebase Realtime Database  
+> 테스트 환경 : Samsung GalaxyS10  
 
 
 
